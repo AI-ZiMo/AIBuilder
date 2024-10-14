@@ -1,0 +1,44 @@
+{
+  "name": "aibuilder",
+  "description": "A platform for chinese to learn AI and become the top 1% AI builder!",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/plugin-feed": "2.0.0-rc.3",
+    "@vuepress/plugin-search": "2.0.0-rc.47",
+    "husky": "9.1.6",
+    "markdownlint-cli2": "0.14.0",
+    "mathjax-full": "3.2.2",
+    "nano-staged": "0.8.0",
+    "nodejs-jieba": "0.1.2",
+    "prettier": "3.3.3",
+    "sass-embedded": "1.79.3",
+    "vue": "^3.5.8",
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-hope": "2.0.0-rc.56"
+  },
+  "dependencies": {
+    "@vuepress/plugin-redirect": "2.0.0-rc.8",
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/plugin-feed": "2.0.0-rc.3",
+    "@vuepress/plugin-search": "2.0.0-rc.47",
+    "husky": "9.1.6",
+    "markdownlint-cli2": "0.14.0",
+    "mathjax-full": "3.2.2",
+    "nano-staged": "0.8.0",
+    "nodejs-jieba": "0.1.2",
+    "prettier": "3.3.3",
+    "sass-embedded": "1.79.3",
+    "vue": "^3.5.8",
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-hope": "2.0.0-rc.56"
+  }
+}

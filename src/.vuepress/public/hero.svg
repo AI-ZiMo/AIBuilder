@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000000"/>
+  
+  <!-- First row text -->
+  <text x="600" y="180" font-family="SF Pro Display, Arial, sans-serif" font-size="72" font-weight="600" fill="#ffffff" text-anchor="middle" opacity="0">
+    成为国内 AI 开发者中的
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.5s" fill="freeze" />
+  </text>
+  
+  <!-- Second row: Top 1% Builder -->
+  <text x="600" y="400" font-family="SF Pro Display, Arial, sans-serif" font-size="160" font-weight="700" fill="#ffffff" text-anchor="middle" opacity="0">
+    Top 1% Builder
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1s" fill="freeze" />
+  </text>
+  
+  <!-- Gradient overlay for "Top 1% Builder" -->
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#007aff">
+        <animate attributeName="stop-color" values="#007aff;#ff9500;#007aff" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff2d55">
+        <animate attributeName="stop-color" values="#ff2d55;#5ac8fa;#ff2d55" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <text x="600" y="400" font-family="SF Pro Display, Arial, sans-serif" font-size="160" font-weight="700" fill="url(#textGradient)" text-anchor="middle" opacity="0">
+    Top 1% Builder
+    <animate attributeName="opacity" from="0" to="0.7" dur="1s" begin="2s" fill="freeze" />
+  </text>
+  
+  <!-- Last row of text -->
+  <text x="600" y="550" font-family="SF Pro Display, Arial, sans-serif" font-size="48" font-weight="300" fill="#a1a1a6" text-anchor="middle" opacity="0">
+    人人都是开发者，Let's build!
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze" />
+  </text>
+</svg>

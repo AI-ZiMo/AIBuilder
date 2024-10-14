@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 220">
+  <!-- Background (transparent) -->
+  <rect width="375" height="220" fill="transparent"/>
+  
+  <!-- Robot Face (simplified) -->
+  <circle cx="187.5" cy="80" r="50" fill="#3498db"/>
+  <circle cx="187.5" cy="80" r="45" fill="white"/>
+  <rect x="162.5" y="65" width="20" height="20" rx="3" fill="#2c3e50"/>
+  <rect x="192.5" y="65" width="20" height="20" rx="3" fill="#2c3e50"/>
+  <rect x="177.5" y="95" width="20" height="6" rx="3" fill="#2c3e50"/>
+  <circle cx="187.5" cy="45" r="7" fill="#2c3e50"/>
+  
+  <!-- Gear (simplified) -->
+  <path d="M187.5 25 L192.5 15 L182.5 15 Z" fill="#2c3e50"/>
+  <path d="M222.5 45 L232.5 40 L227.5 30 Z" fill="#2c3e50"/>
+  <path d="M222.5 115 L232.5 120 L227.5 130 Z" fill="#2c3e50"/>
+  <path d="M152.5 115 L142.5 120 L147.5 130 Z" fill="#2c3e50"/>
+  <path d="M152.5 45 L142.5 40 L147.5 30 Z" fill="#2c3e50"/>
+  
+  <!-- Circuit Board (simplified) -->
+  <line x1="247.5" y1="60" x2="277.5" y2="60" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="277.5" y1="60" x2="277.5" y2="100" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="277.5" cy="60" r="3" fill="#3498db"/>
+  <circle cx="277.5" cy="100" r="3" fill="#3498db"/>
+  
+  <!-- Text -->
+  <text x="187.5" y="170" font-family="Arial Black, sans-serif" font-size="36" font-weight="bold" text-anchor="middle">
+    <tspan fill="#2c3e50">AI</tspan><tspan fill="#3498db">Builder</tspan>
+  </text>
+</svg>
