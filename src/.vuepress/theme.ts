@@ -1,6 +1,9 @@
+import { getDirname, path } from "vuepress/utils";
+
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
   hostname: "https://aibuilder.club",
@@ -31,7 +34,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个AI Builder",
     intro: "/intro.html",
     medias: {
       BiliBili: "https://space.bilibili.com/314767335",
@@ -63,7 +66,7 @@ export default hopeTheme({
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
-      canonical: "https://aibuilder.club/",
+      canonical: "https://topbuilder.cn/",
       global: true,
     },
     search: {
@@ -103,57 +106,20 @@ export default hopeTheme({
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
-      attrs: true,
-      component: true,
-      demo: true,
-      include: true,
-      mark: true,
-      plantuml: true,
-      spoiler: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
+      gfm: true,
+      include: {
+        resolvePath: (file, cwd) => {
+          if (file.startsWith("@"))
+            return path.resolve(
+              __dirname,
+              "../snippets",
+              file.replace("@", "./"),
+            );
+
+          return path.resolve(cwd, file);
         },
-      ],
-      sub: true,
-      sup: true,
+      },
       tasklist: true,
-      vPre: true,
-
-      // 在启用之前安装 chart.js
-      // chart: true,
-
-      // insert component easily
-
-      // 在启用之前安装 echarts
-      // echarts: true,
-
-      // 在启用之前安装 flowchart.ts
-      // flowchart: true,
-
-      // gfm requires mathjax-full to provide tex support
-      // gfm: true,
-
-      // 在启用之前安装 mermaid
-      // mermaid: true,
-
-      // playground: {
-      //   presets: ["ts", "vue"],
-      // },
-
-      // 在启用之前安装 @vue/repl
-      // vuePlayground: true,
-
-      // install sandpack-vue3 before enabling it
-      // sandpack: true,
     },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

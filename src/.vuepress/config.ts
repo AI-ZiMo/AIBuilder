@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "AI Builder",
-  description: "AI正在改变世界，你也可以成为其中一员。",
+  description: "人人都是开发者, Let's build!",
 
   theme,
 

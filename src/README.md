@@ -1,16 +1,16 @@
 ---
 home: true
 icon: home
-title: Java 面试指南
+title: AI 开发指南
 heroImage: /hero.svg
 heroText: AI Builder
-tagline: 「人人都是开发者」AI正在改变世界，你也可以成为其中一员。
+tagline: 「AI开发指南」人人都是开发者，你也可以成为其中一员。
 actions:
   - text: 开始阅读
     link: /home.md
     type: primary
   - text: 知识星球
-    link: /about-the-author/zhishixingqiu-two-years.md
+    link: /about-the-author/zhishixingqiu.md
     type: default
 footer: |-
    主题: <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a>
@@ -18,8 +18,11 @@ footer: |-
 
 ## 关于网站
 
-这是你的最佳AI开发者学习网站。过去计算机开发软件的门槛是很高的，除了学习编程语言，还需要学习计算机操作系统、计算机网络、数据结构与算法等知识以及层出不穷的框架、库、工具。传统的学习路径：搜集大量学习资料，看课程，做练习，项目编程实战。而且需要与时俱进，一些技术和工具很快就会过时。有了一定开发经验以及项目积累之后，才有可能从想法到落地实际产品。
-**<font color="red">而AI的出现，让软件开发变得前所未有的简单。未来的时代，人人都是开发者。</font>**
+这是你的最佳AI开发者学习网站。
+
+过去计算机开发软件的门槛是很高的，除了学习编程语言，还需要学习计算机操作系统、计算机网络、数据结构与算法等知识以及层出不穷的框架、库、工具。传统的学习路径：搜集大量学习资料，看课程，做练习，项目编程实战。而且需要与时俱进，一些技术和工具很快就会过时。有了一定开发经验以及项目积累之后，才有可能从想法到落地实际产品。
+**<font color="red">而AI的出现，让软件开发变得前所未有的简单。未来的时代，人人都是开发者。无需开发经验，你也能开发属于你自己的产品！</font>**
+
 
 ![学习更快，开发更快](/learn-build-faster-svg.svg)
 ## 关于作者
@@ -49,4 +52,4 @@ footer: |-
 
 最新更新会第一时间同步在公众号，推荐关注！另外，公众号上有很多干货不会同步在线阅读网站。
 
-![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
+![AIBuilder 官方公众号](/qrcode.jpg)

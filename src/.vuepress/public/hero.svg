@@ -33,6 +33,6 @@
   <!-- Last row of text -->
   <text x="600" y="550" font-family="SF Pro Display, Arial, sans-serif" font-size="48" font-weight="300" fill="#a1a1a6" text-anchor="middle" opacity="0">
     人人都是开发者，Let's build!
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze" />
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze" />
   </text>
 </svg>
