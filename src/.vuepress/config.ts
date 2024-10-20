@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "AI Builder",
+  title: "AIBuilder.club", 
   description: "人人都是开发者, Let's build!",
 
   theme,
