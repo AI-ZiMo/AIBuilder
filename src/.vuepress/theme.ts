@@ -1,8 +1,9 @@
 import { getDirname, path } from "vuepress/utils";
 
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { enNavbarConfig, zhNavbarConfig } from "./navbar/index.js";
+import { enSidebarConfig, zhSidebarConfig } from "./sidebar/index.js";
+
 const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
@@ -13,20 +14,18 @@ export default hopeTheme({
     url: "https://aizimo.top",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  // 阿里妈妈图标的前缀
+  iconPrefix: "iconfont icon-",
 
-  logo: "/logo.svg",
+  //iconAssets: "fontawesome-with-brands",
+  iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
+  logo: "/hero.png",
 
   repo: "https://github.com/JiangZhengtao1/AIBuilder",
 
   docsDir: "src",
   pure: true,
   breadcrumb: false,
-  // 导航栏
-  navbar,
-
-  // 侧边栏
-  sidebar,
 
   // 页脚
   footer: "默认页脚",
@@ -55,7 +54,16 @@ export default hopeTheme({
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
-
+  locales: {
+    "/": {
+      navbar: zhNavbarConfig ,
+      sidebar:zhSidebarConfig ,
+    },
+    "/en/": {
+      navbar: enNavbarConfig,
+      sidebar: enSidebarConfig,
+    },
+  },
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
 
@@ -83,7 +91,13 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: [
+        "Badge",
+        "VPCard",
+        "ArtPlayer",
+        "VidStack",
+        "YouTube"
+      ],
     },
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
@@ -120,6 +134,7 @@ export default hopeTheme({
         },
       },
       tasklist: true,
+      mark: true,
     },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

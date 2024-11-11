@@ -3,11 +3,18 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
-
-  lang: "zh-CN",
-  title: "AIBuilder.club", 
-  description: "人人都是开发者, Let's build!",
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'AIBuilder.club',
+      description: '最佳AI开发学习网站',
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'Waline',
+      description: 'The best AI learning website',
+    },
+  },
 
   theme,
 
