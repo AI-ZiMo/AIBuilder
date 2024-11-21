@@ -36,9 +36,8 @@ footer: |-
 
 ![](/wechat.png =200x240)
 
-## 公众号
+## 加入圈子
+欢迎加入 **[AIBuilder 圈子](../shequn/README.md)**。
+[纷传社群-AI开发从入门到精通](https://pc.fenchuan8.com/#/index?forum=93192)
 
-
-最新更新会第一时间同步在公众号，推荐关注！另外，公众号上有很多干货不会同步在线阅读网站。
-
-![AIBuilder 官方公众号](/qrcode.jpg)
+![加入社群](/QR.png )
