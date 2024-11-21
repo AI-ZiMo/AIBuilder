@@ -33,12 +33,15 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个AI Builder",
-    intro: "/intro.html",
+    description: "立志成为国内Top 1%的AI开发者",
+    intro: "/about-the-author/",
+    sidebarDisplay: "mobile",
+    // 博主头像
+    avatar: "/avator.png",
     medias: {
+      Youtube: "https://www.youtube.com/@AIzimo",
       BiliBili: "https://space.bilibili.com/314767335",
       Github: "https://github.com/JiangZhengtao1",
-      Youtube: "https://www.youtube.com/@AIzimo",
       Zhihu: "https://www.zhihu.com/people/wx413fa4c85411173e",
     },
   },
@@ -49,7 +52,15 @@ export default hopeTheme({
       "/demo/encrypt.html": ["1234"],
     },
   },
+  // 提示文字
+  encryptLocales: {
+    placeholder: "微信搜‘AI探索者-子默’回复‘密码’获取口令",
 
+    /**
+     * Passwrod error hint
+     */
+    errorHint: "哈哈，别调戏人家啦，按规则来嘛",
+  },
   // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
@@ -74,7 +85,7 @@ export default hopeTheme({
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
-      canonical: "https://topbuilder.cn/",
+      canonical: "https://aibuilder.club/",
       global: true,
     },
     search: {
