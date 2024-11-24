@@ -52,6 +52,8 @@ local     chatgpt_mirror_prod_db
 
 :::
 
+![](https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images202411241905029.png)
+
 ::: tip 优势体现
 - 主动性：无需用户指导就开始系统性检查
 - 全局视角：不只关注数据库，而是检查整个 Docker 环境
@@ -80,6 +82,8 @@ services:
       - chatgpt_mirror_prod_db:/app/backend/db/
 ```
 :::
+
+![](https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images202411241903959.png)
 
 ::: tip 优势体现
 - 关联分析：自动关联文件大小异常和 volume 配置
@@ -111,6 +115,8 @@ $ docker run --rm \
 ```
 :::
 
+![](https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images202411241902070.png)
+
 ::: tip 优势体现
 - 自动化程度：自动执行完整的命令序列
 - 容错处理：当普通停止命令失败时，自动采用强制方式
@@ -135,6 +141,8 @@ total 188
 -rw-r--r--    1 root     root        188416 Nov 24 17:51 db.sqlite3
 ```
 :::
+
+![](https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images202411241900180.png)
 
 ::: tip 优势体现
 - 完整性验证：确保服务正常启动和数据库恢复
@@ -164,6 +172,8 @@ docker run --rm -v chatgpt_mirror_prod_db:/data -v $(pwd):/backup \
 EOF
 ```
 :::
+
+![](https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images202411241858785.png)
 
 ::: tip 优势体现
 - 前瞻性：主动提供预防措施
@@ -211,6 +221,13 @@ EOF
 :::
 
 ::: important 结语
-这个案例不仅展示了如何解决一个具体的技术问题，更重要的是展示了 AI 辅助工具如何改变我们的开发方式。通过在每个步骤中体现其优势，我们可以更好地理解 AI 工具在提升开发效率和质量方面的价值。
+这个案例展示了 Windsurf 在解决问题时的高效之处:
+
+1. 快速定位 - 通过智能分析快速锁定问题根因，避免盲目尝试
+2. 系统化解决 - 提供完整的解决方案，包含执行步骤和验证方法
+3. 自动化处理 - 生成可直接使用的脚本，减少手动操作
+4. 知识积累 - 在解决问题的同时提供最佳实践，帮助开发者成长
+
+通过这种高效的问题解决方式，Windsurf 不仅帮助开发者节省时间，更重要的是提供了一个可持续改进的解决方案。
 :::
 

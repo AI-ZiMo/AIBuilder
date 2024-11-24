@@ -17,6 +17,16 @@ export const zhSidebarConfig =  sidebar({
   "/shequn/": [
     "README.md"
   ],
+  "/windsurf": [
+    "README.md",
+    {
+      text: "案例解读",
+      prefix: "case-study/",
+      children: [
+        "a-docker-volumn-case-study"
+      ]
+    }
+  ],
   "/aitutorial/": [
     {
       text: "一、提示词工程",
