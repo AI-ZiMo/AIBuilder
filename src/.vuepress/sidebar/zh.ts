@@ -2,7 +2,17 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebarConfig =  sidebar({
   "/cursor/projects/": [
-    "README.md"
+    "README.md",
+    {
+      text: "全栈web开发",
+      prefix: "web/",
+      collapsible: false,
+      children: [
+        "README.md",
+        "project-setup",
+        "PRD"
+      ]
+    },
   ],
   "/shequn/": [
     "README.md"
@@ -21,6 +31,12 @@ export const zhSidebarConfig =  sidebar({
       children: [
         "README.md",
         "replit"
+      ]
+    },{
+      text: "三、工作流",
+      prefix: "workflow/",
+      children: [
+        "coze workflow"
       ]
     }
   ],
