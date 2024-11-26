@@ -1,15 +1,13 @@
 ---
-title: GPT4U 产品介绍
-home: true
-heroText: GPT4U
-tagline: 官网极致一比一还原的 AI 助手
+title: 小猫镜像站 产品介绍
+heroText: 小猫镜像站
+tagline: 官网极致一比一还原的 GPT镜像站
 heroImage: https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images20241126163334.png
+sidebar: false
 actions:
   - text: 立即体验
     link: https://ai.gpt4u.cc
     type: primary
-  - text: 了解更多
-    link: /guide/
 ---
 
 ## 产品特点
