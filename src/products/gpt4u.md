@@ -1,0 +1,69 @@
+---
+title: GPT4U 产品介绍
+home: true
+heroText: GPT4U
+tagline: 官网极致一比一还原的 AI 助手
+heroImage: https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images20241126163334.png
+actions:
+  - text: 立即体验
+    link: https://ai.gpt4u.cc
+    type: primary
+  - text: 了解更多
+    link: /guide/
+---
+
+## 产品特点
+
+市面上绝大多数GPT网站属于API套壳网站，本GPT镜像网站:
+
+- 官网极致一比一还原,提供最顶级的用户体验
+- 包含大模型 o1 系列、canvas、图片分析、图片生成、GPTs、语音聊天等功能
+- 与官网同步更新最新模型,但价格仅需官网的 1/3
+
+
+## 功能特性
+
+- 访问 GPT-4、GPT-4o、GPT-4omini、o1-mini、o1-preview 等模型
+- GPT-4o 消息量最多可增加 5 倍
+- 支持高级数据分析、文件上传、视觉和网页浏览
+- DALL·E 图像生成
+- 创建和使用定制 GPT
+
+## 付费账户
+
+::: center
+<img src="https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images20241126162725.png" width="50%" />
+:::
+
+## 邀请推广
+
+### 邀请奖励
+
+邀请新用户注册,双方均可获得:
+
+- 1天 Plus 会员资格(可累加)
+- 订单金额 15% 的推广现金(满 100 元可提现)
+
+### 获取邀请码
+
+1. 登录后点击左下角进入个人中心:
+
+   ::: center
+   <img src="https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images20241126162831.png" width="50%" />
+   :::
+
+2. 查看邀请码:
+
+   ::: center
+   <img src="https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images20241126162844.png" width="50%" />
+   :::
+
+3. 分享邀请:
+   - 通过二维码分享
+   - 复制邀请链接
+
+4. 查看收益:
+
+   ::: center
+   <img src="https://aibuilder.oss-cn-hangzhou.aliyuncs.com/images20241126163012.png" width="50%" />
+   :::

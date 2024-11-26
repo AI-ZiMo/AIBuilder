@@ -7,5 +7,6 @@ import { navbar } from "vuepress-theme-hope";
   { text: "WindSurf基础教程",  icon: "book", link: "/windsurf/" },
   { text: "Cursor最佳实践", icon:"et-performance", link: "/cursor/projects/" },
   { text: "加入社区", icon:"planet",link: "/shequn/" },
+  { text: "工具推荐", icon:"planet",link: "/products/gpt4u.md" },
 
 ]);
